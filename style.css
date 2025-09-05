@@ -24,8 +24,8 @@ body{
 }
 
 .mode-light{
-    --bg-color: #9cd6ef;
-    --bg-header-color: rgb(154, 213, 239, 0.5);
+    --bg-color: #5cbae2;
+    --bg-header-color: rgb(92, 186, 226, 0.5);
     --bg-index-color: rgba(100, 100, 100, 0.5);
     --bg-bubble-color: #fff;
     --bg-filter-uncheck-color: rgba(232, 231, 255, 0.5);
@@ -96,7 +96,7 @@ header{
 #menu-label{
     display: flex;
     align-items: center;
-    width: 165px;
+    width: fit-content;
     height: 24px;
     margin: 20px 0;
     cursor: pointer;
@@ -168,12 +168,11 @@ header{
     max-width: 900px;
     text-align: center;
     margin: 0 auto;
-    padding: 50px 2rem 0;
+    padding: 130px 2rem 0;
     color: #fff;
 }
 
 #profile-icon{
-    margin-top: 2rem;
     font-size: 1.05rem;
     font-weight: 500;
     line-height: 1.5;
@@ -184,11 +183,11 @@ header{
 	border-radius: 50%;
     width: 100px;
     height: 100px;
-    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 #description{
-    margin-top: 1rem;
+    margin-top: .5rem;
     color: var(--font-pale-color);
 }
 
@@ -196,7 +195,7 @@ header{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 1.5rem;
-    margin-top: 1.5rem;
+    margin-top: 3rem;
 }
 
 #container div a{
@@ -666,6 +665,7 @@ footer{
     display: flex;
     justify-content: center;
 	align-items: center;
+    margin-top: 200px;
     padding: 30px 20px 20px 15px;
     text-align: center;
     color: rgba(255, 255, 255, 0.8);

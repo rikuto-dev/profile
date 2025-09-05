@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', function(){
     var json_data, repo_data;
     prm[0] = new Promise(function(resolver){ //load data.json to "json_data"
         var xhr = new XMLHttpRequest();
-        xhr.open('get',"https://raw.githubusercontent.com/rikumomo0407/profile/main/data.json");
+        xhr.open('get',"https://raw.githubusercontent.com/rikuto-dev/profile/main/data.json");
         xhr.onload=function(){
             json_data = JSON.parse(this.responseText);
             resolver(this);
@@ -14,7 +14,7 @@ window.addEventListener('DOMContentLoaded', function(){
     });
     prm[1] = new Promise(function(resolver){ //load data about repositories to "repo_data"
         var xhr = new XMLHttpRequest();
-        xhr.open('get', "https://api.github.com/users/rikumomo0407/repos");
+        xhr.open('get', "https://api.github.com/users/rikuto-dev/repos");
         xhr.onload=function(e){
             repo_data = JSON.parse(this.responseText);
             resolver(this);
