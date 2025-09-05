@@ -1,10 +1,38 @@
+/* --- Contact Button --- */
+.contact-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0 2.5rem 0;
+    padding: 0 1rem;
+}
+.contact-btn {
+    display: inline-block;
+    background: linear-gradient(90deg, #4f8cff 0%, #7f53ff 100%);
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 0.9em 2.2em;
+    border-radius: 2em;
+    box-shadow: 0 4px 16px -4px rgba(79,140,255,0.18);
+    text-align: center;
+    transition: background 0.38s cubic-bezier(0.4,0,0.2,1), transform 0.18s, box-shadow 0.18s;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+}
+.contact-btn:hover {
+    background: linear-gradient(90deg, #7f53ff 0%, #4f8cff 100%);
+    transform: translateY(-2px) scale(1.04);
+    box-shadow: 0 8px 24px -8px rgba(79,140,255,0.22);
+}
 /* --- Apps Grid (アプリ一覧) --- */
 #apps{
     margin-bottom: 150px;
     padding: 20px 3rem 0;
 }
 
-#apps-grid {
+/* #apps-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 3rem;
@@ -17,10 +45,16 @@
     flex-direction: column;
     transition: transform 0.18s, box-shadow 0.18s;
     cursor: pointer;
+} */
+
+.app-item {
+    max-width: 150px;
+    transition: transform 0.18s, box-shadow 0.18s;
+    cursor: pointer;
+    margin: 0 auto
 }
 .app-item:hover {
     transform: translateY(-4px) scale(1.03);
-    box-shadow: 0 16px 32px -8px rgba(0,0,0,0.22);
 }
 .app-item img {
     border-radius: 22.5%;
@@ -39,20 +73,6 @@
     font-size: 0.75rem;
     color: var(--font-pale-color, #e4e8fa);
 }
-
-/* @media (max-width: 600px) {
-    .apps-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1.2rem;
-    }
-    .app-item {
-        padding: 1.1rem 0.5rem 1rem 0.5rem;
-    }
-    .app-item img {
-        width: 54px;
-        height: 54px;
-    }
-} */
 
 *,*::before,*::after{box-sizing:border-box}*{margin:0}html,body{height:100%}body{line-height:1.5;-webkit-font-smoothing:antialiased}img,picture,video,canvas,svg{display:block;max-width:100%}input,button,textarea,select{font:inherit}p,h1,h2,h3,h4,h5,h6{overflow-wrap:break-word}#root,#__next{isolation:isolate}
 
@@ -80,8 +100,8 @@ body{
 }
 
 .mode-light{
-    --bg-color: #5cbae2;
-    --bg-header-color: rgb(92, 186, 226, 0.5);
+    --bg-color: #60c7f3;
+    --bg-header-color: rgb(96, 199, 243, 0.5);
     --bg-index-color: rgba(100, 100, 100, 0.5);
     --bg-bubble-color: #fff;
     --bg-filter-uncheck-color: rgba(232, 231, 255, 0.5);
