@@ -1,6 +1,8 @@
 {
     "timeline" : [
+        {"date" : "2025-09-16", "category" : "others", "content" : "Xのアカウントを変更しました。"},
         {"date" : "2025-09-10", "category" : "releases", "content" : "アプリ「カシカリ帳」をリリースしました。"},
+        {"date" : "2025-09-06", "category" : "others", "content" : "プロフィールサイトをリニューアルしました。"},
         {"date" : "2025-09-04", "category" : "others", "content" : "GitHubアカウントを変更しました。"},
         {"date" : "2023-08-07", "category" : "others", "content" : "サイトのUIを一部変更しました。"},
         {"date" : "2023-07-31", "category" : "others", "content" : "本日よりGitHubの更新を再開します。"},
