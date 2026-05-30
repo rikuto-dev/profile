@@ -1,5 +1,7 @@
 {
     "timeline" : [
+        {"date" : "2026-03-27", "category" : "notes", "content" : "Swift Student Challenge 2026のWinnerに選出されました！"},
+        {"date" : "2026-02-25", "category" : "releases", "content" : "アプリ「スクリーンライト」をリリースしました。"},
         {"date" : "2025-09-16", "category" : "others", "content" : "Xのアカウントを変更しました。"},
         {"date" : "2025-09-10", "category" : "releases", "content" : "アプリ「カシカリ帳」をリリースしました。"},
         {"date" : "2025-09-06", "category" : "others", "content" : "プロフィールサイトをリニューアルしました。"},
@@ -7,7 +9,6 @@
         {"date" : "2023-08-07", "category" : "others", "content" : "サイトのUIを一部変更しました。"},
         {"date" : "2023-07-31", "category" : "others", "content" : "本日よりGitHubの更新を再開します。"},
         {"date" : "2023-07-17", "category" : "others", "content" : "GitHubの更新を一時休止します。"},
-        {"date" : "2023-07-07", "category" : "notes", "content" : "TwitterのAPI制限により、タイムラインが一時的に非表示になっています。"},
         {"date" : "2023-06-09", "category" : "others", "content" : "本日よりGitHubの更新を再開します。"},
         {"date" : "2023-05-29", "category" : "others", "content" : "GitHubの更新を一時休止します。"},
         {"date" : "2023-05-07", "category" : "releases", "content" : "🎉 プロフィールサイトをリリースしました！！"}
